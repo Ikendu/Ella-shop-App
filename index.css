@@ -1,0 +1,79 @@
+.slide{
+	width: 90% !important;
+	display: flex;
+	object-fit: contain;
+	overflow: hidden !important;
+	background-color: #193D27;
+	margin: 0 auto;
+	border-radius: 20px 20px 0 0;
+}
+.link{
+	width: 88%;
+	background-color: #193D27;
+	margin: 30px auto;
+	text-align: center;
+	margin-bottom: -20px;
+	border-radius: 50px 50px 0 0;
+	font-size: 20px;
+}
+@media screen and (max-width: 700px){
+	.link{
+		border-radius: 20px 20px 0 0;
+	}
+}
+.d-block{
+	margin-left: 60px;
+}
+
+.image11{
+	width: 150px !important;
+	height: 200px !important;
+	margin: 10px 20px !important;
+	object-fit: cover !important;
+	border-radius: 3px;
+}
+@media screen and (max-width: 900px){
+	.image11{
+		margin: 1px 2px !important;
+		width: 115px !important;
+		height: 130px !important;
+	}
+		.d-block{
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 700px){
+	h1{
+		text-align: center;
+		color: #729DC9 !important;
+	}
+	.image11{
+		margin: 2px 1px !important;
+		width: 90px !important;
+		height: 100px !important;
+	}
+	.d-block{
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 525px){
+	.image11{
+		margin: 0px 0px !important;
+		width: 77px !important;
+		height: 90px !important;
+	}
+	.d-block{
+		margin-left: 6px;
+	}
+}
+
+.carousel-control-next-icon{
+	background-color: black;
+	position: relative;
+	left: 5px !important;
+}
+.carousel-control-prev-icon{
+	background-color: black;
+	position: relative;
+	left: -50px !important;
+}
