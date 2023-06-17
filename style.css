@@ -1,6 +1,10 @@
 *{
 	box-sizing: border-box !important;
 }
+html, body {
+  overflow-x: hidden;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   * {
     scroll-behavior: smooth;
@@ -9,12 +13,18 @@
 body{
 	background-color: #C4BFC3 !important;
 }
+#btn-search{
+	border: 1px solid !important;
+	background-color: #2A0305 !important;
+}
 #button{
 	background-color: #837EF3;
 	color: white;
+	padding: 3px;
+	font-size: 12px;
 }
 #front-page{
-	margin-top: -111px;
+	margin-top: -150px;
 }
 #logo{
 	border-radius: 35%;
@@ -30,6 +40,25 @@ body{
 	color: #ADADAE !important;
 	background-color: #2A0305;
 }
+@media screen and (max-width: 900px){
+	.nav-link{
+		border-top: 1px solid whitesmoke;
+	}
+	#navbar-nav{
+		width: 200px !important;		
+		position: absolute;
+		left: 0px !important;
+		z-index: 10 !important;
+		text-align: center;
+	}
+	.d-flex{
+		width: 50%;
+		position: absolute;
+		left: 50%;
+		z-index: 10;
+	}
+}
+
 .nav-link{
 	color: #B4C9F9 !important;
 	padding-top: 5px !important;
@@ -46,7 +75,8 @@ body{
 }
 
 h1{
-	color: #BADFF0;
+	color: #93058E !important;
+	margin-top: 60px;
 }
 p{
 	color: #B2C3CB;
@@ -64,23 +94,36 @@ p{
 	border-bottom: 2px solid #B2C3CB;
 	border-radius: 5% 5% 5% 5%;
 	margin: auto;
+	margin-bottom: -100px;
 }
 .space1 .ceo{
 	text-align: center;
 	font-size: 16px;
 	font-style: italic;
+	color: #957A98;
+}
+@media (max-width: 600px){
+	.hairs{
+		font-size: 16px;
+		line-height: 27px;
+		padding: 8px 3%;
+		width: 90%;
+	}
+	.space1 .ceo{
+		font-size: 14px;
+	}
 }
 .here{
 	color: #22FA05;
 	font-style: italic;
 }
 .arivals{
-	height: 70px;
 	width: 50%;
 	border: 3px solid #C4BFC3;
 	border-radius: 20px;
 	background-color: #707072;
-	margin: -18px auto;
+	margin: -29px auto;
+	margin-top: 45px;
 	font-size: 20px;
 	text-align: center;
 	padding: 3px;
@@ -90,34 +133,36 @@ p{
 		width: 80%;
 	}
 }
+
+
+.arivals p{	
+    color: #F5F5FC !important;
+	font-size: 18px;
+}
 @media screen and (max-width: 600px){
 	.arivals{
 		width: 97%;
 	}
+	h1{
+		text-align: center;
+		color: #93058E !important;
+		font-size: 40px !important;
+		margin-bottom: 100px !important;
+	}
+	.arivals p{
+		font-size: 16px
+	}
 }
 
-.arivals p{	
-	color: #F5F5FC !important;
-}
 .icon-arrow-down{
 	color: #6F040B;
 }
 
-.contacts{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	background-color: #193D27;
-	margin: 0;
-	text-align: center;
-	padding: 10px;
-	font-size: 18px;
-}
 #social{	
 	padding: 10px;
 }
 #social, #social p {
-	width: 100%;
+	width: 90%;
 	margin: auto;
 	text-align: center;
 } 
@@ -125,25 +170,17 @@ p{
 	color: #1D2145;
 	font-size: 20px;
 }
+@media screen and (max-width: 700px){
+		#social p{
+		font-size: 14px;
+	}
+}
 #social i{
 	font-size: 35px;
-	padding-left: 30px;
+	padding-left: 10px;
 }
-.icon-facebook-square{
-	color: #030B59;
-}
-.icon-whatsapp{
-	color: #09A158;
-}
-.icon-phone-square{
-	color: #094D06;
-}
-.icon-phone-square:hover{
 
-}
-.icon-instagram{
-	color: #88095A;
-}
+
 details{
 	width: 40px;
 	position: relative;
@@ -167,13 +204,5 @@ details{
 	}
 }
 
-footer{
-	width: 100%;
-	height: 150px;
-	background-color: #0E0A68;
-	text-align: center;
-	padding: 20px;
-	font-size: 18px;
-}
 
 	

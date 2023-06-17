@@ -1,12 +1,12 @@
 .slide{
-	width: 90% !important;
+	width: 97% !important;
 	display: flex;
 	object-fit: contain;
 	overflow: hidden !important;
-	background-color: #193D27;
-	margin: 0 auto;
+	margin: 50px 0 10px 0;
 	border-radius: 20px 20px 0 0;
 }
+
 .link{
 	width: 88%;
 	background-color: #193D27;
@@ -21,50 +21,17 @@
 		border-radius: 20px 20px 0 0;
 	}
 }
+
 .d-block{
-	margin-left: 60px;
+	margin-left: 67px;
 }
 
 .image11{
 	width: 150px !important;
 	height: 200px !important;
-	margin: 10px 20px !important;
+	margin: 10px 50px !important;
 	object-fit: cover !important;
-	border-radius: 3px;
-}
-@media screen and (max-width: 900px){
-	.image11{
-		margin: 1px 2px !important;
-		width: 115px !important;
-		height: 130px !important;
-	}
-		.d-block{
-		margin-left: 20px;
-	}
-}
-@media screen and (max-width: 700px){
-	h1{
-		text-align: center;
-		color: #729DC9 !important;
-	}
-	.image11{
-		margin: 2px 1px !important;
-		width: 90px !important;
-		height: 100px !important;
-	}
-	.d-block{
-		margin-left: 10px;
-	}
-}
-@media screen and (max-width: 525px){
-	.image11{
-		margin: 0px 0px !important;
-		width: 77px !important;
-		height: 90px !important;
-	}
-	.d-block{
-		margin-left: 6px;
-	}
+	border-radius: 10px;
 }
 
 .carousel-control-next-icon{
@@ -76,4 +43,74 @@
 	background-color: black;
 	position: relative;
 	left: -50px !important;
+}
+@media screen and (max-width: 950px){
+	
+	.image11{
+		margin: 3px 20px !important;
+		width: 120px !important;
+		height: 135px !important;
+	}
+	.d-block{
+		margin-left: 30px;
+	}
+	.carousel-control-prev-icon{	
+	left: -7px !important;
+}
+@media screen and (max-width: 800px){
+	.image11{
+		margin: 5px 20px !important;
+		width: 100px !important;
+		height: 130px !important;
+	}
+		.d-block{
+		margin-left: 30px;
+	}
+}
+@media screen and (max-width: 620px){
+	.image11{
+		margin: 5px 15px !important;
+		width: 90px !important;
+		height: 120px !important;
+	}
+		.d-block{
+		margin-left: 30px;
+	}
+}
+.carousel-control-next-icon{
+	width: 20px !important;
+	height: 20px !important;
+}
+.carousel-control-prev-icon{
+	width: 20px !important;
+	height: 20px !important;
+}
+
+@media screen and (max-width: 550px){
+	.image11{
+		margin: 5px 15px !important;
+		width: 72px !important;
+		height: 90px !important;
+	}
+	.d-block{
+		margin-left: 16px;
+	}
+}
+
+
+@media screen and (max-width: 450px){
+	.image11{
+		margin: 3px 5px !important;
+		width: 75px !important;
+		height: 85px !important;
+	}
+
+}
+@media screen and (max-width: 400px){
+	.image11{
+		margin: 3px 5px !important;
+		width: 60px !important;
+		height: 80px !important;
+	}
+	
 }
